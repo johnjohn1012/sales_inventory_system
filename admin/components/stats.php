@@ -66,7 +66,7 @@ function displayStats($stats) {
                     <i class="fas fa-dollar-sign"></i>
                 </div>
                 <div class="stat-title">Sales Today</div>
-                <div class="stat-value">$<?php echo number_format($stats['total_sales'], 2); ?></div>
+                <div class="stat-value"><?php echo number_format($stats['total_sales'], 2); ?></div>
             </div>
         </div>
     </div>
