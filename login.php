@@ -119,7 +119,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <style>
         body {
             font-family: 'Poppins', sans-serif;
-            background-color: #f8f9fc;
+            background-image: url('bg-harah.jpg');
+            background-size: cover;
+            background-position: center;
             min-height: 100vh;
             display: flex;
             align-items: center;
