@@ -43,7 +43,7 @@ try {
 ?>
 
 <?php include 'components/header.php'; ?>
-<body>
+
     <?php include 'components/navbar.php'; ?>
     
     <div class="container mt-4">
@@ -179,5 +179,4 @@ try {
             }
         });
     </script>
-</body>
-</html>
+
